@@ -12,6 +12,7 @@ dependencies = [
 
 [tool.pytest.ini_options]
 anyio_mode = "auto"
+pythonpath = ["."]
 testpaths = ["tests"]
 
 [tool.ruff]
